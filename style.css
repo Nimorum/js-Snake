@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game{
+    background-color: beige;
+    width: 80vmin;
+    height: 80vmin;
+    display: grid;
+    grid-template-columns: repeat(30,1fr);
+    grid-template-rows: repeat(30,1fr);
+}
+
+.snake{
+    background-color: blueviolet;
+}
+
+.food{
+    background-color: green;
+}
